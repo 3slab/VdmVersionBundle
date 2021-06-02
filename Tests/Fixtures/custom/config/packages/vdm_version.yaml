@@ -1,0 +1,6 @@
+vdm_version:
+  path: /myversion
+  secret: mysecret
+  versions:
+    portal: '1.1.0'
+    db: '3.2.1'

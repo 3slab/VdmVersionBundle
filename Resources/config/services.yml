@@ -1,0 +1,17 @@
+parameters:
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Vdm\Bundle\VersionBundle\:
+        resource: '../../*'
+        exclude: '../../{Entity,Controller,Monitoring,Migrations,Tests,vendor,var,VdmVersionBundle.php}'
+
+    Vdm\Bundle\VersionBundle\Controller\:
+        resource: '../../Controller'
+        arguments:
+            $secret: '%vdm_version.secret%'
+        tags: ['controller.service_arguments']

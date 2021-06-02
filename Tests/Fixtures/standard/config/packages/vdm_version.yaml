@@ -1,0 +1,4 @@
+vdm_version:
+  versions:
+    frontend: 'dev-6'
+    backend: '3.x-beta'
