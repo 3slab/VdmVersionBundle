@@ -1,6 +1,6 @@
 # VdmVersionBundle
 
-[![Build Status](https://travis-ci.org/3slab/VdmVersionBundle.svg?branch=master)](https://travis-ci.org/3slab/VdmVersionBundle)
+[![Build Status](https://travis-ci.com/3slab/VdmVersionBundle.svg?branch=master)](https://travis-ci.com/3slab/VdmVersionBundle)
 
 This bundle provides a simple and standardized way to expose application version in a route.
 
